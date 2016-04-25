@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = {
-  port: 'PORT'
+  port: 'PORT',
+	mongoUrl: 'MONGO_URL'
 }

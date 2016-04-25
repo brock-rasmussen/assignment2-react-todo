@@ -1,0 +1,23 @@
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	font-size: 16px;
+	padding: 10px;
+	width: 200px;
+	border: 1px solid #ccc;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.submit {
+	padding: 0 15px;
+	color: #fff;
+	font-size: 16px;
+	background-color: #05b0c6;
+	border: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

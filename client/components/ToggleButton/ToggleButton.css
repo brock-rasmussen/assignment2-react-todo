@@ -1,0 +1,19 @@
+.toggle {
+	border: 0;
+	background-color: transparent;
+	font-family: sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 10px 5px;
+}
+
+.toggle:not(:last-child)::after {
+	content: "|";
+	margin-left: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.toggle.active {
+	text-decoration: underline;
+}
