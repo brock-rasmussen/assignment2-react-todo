@@ -9,8 +9,8 @@
     "watch": "nodemon --exec babel-node -- app",
     "build-watch": "webpack-dev-server --inline --content-base public/",
     "all": "npm run watch & npm run build-watch",
-    "build": "NODE_ENV=production webpack",
-    "test": "NODE_ENV=test mocha"
+    "build": "SET NODE_ENV=production& webpack",
+    "test": "SET NODE_ENV=test& mocha"
   },
   "author": "Brock Rasmussen",
   "license": "ISC",
